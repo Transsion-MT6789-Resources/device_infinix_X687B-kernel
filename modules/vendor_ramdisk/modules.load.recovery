@@ -59,9 +59,8 @@ cmdq-platform-mt6789.ko
 cmdq_helper_inf.ko
 mtk-mml.ko
 mtk_panel_ext.ko
-tran_drm_panel_i2c.ko
-nt36672e_fhdp_dsi_vdo_hx_hx_120hz_x6833b.ko
-ili7807s_fhdp_dsi_vdo_txd_boe_120hz_x6833b.ko
+mediatek-drm-gateic.ko
+nt37703_fhdp_dsi_vdo_tm_panda_120hz_x678b.ko
 mediatek-drm.ko
 aee_rs.ko
 mmprofile.ko
@@ -115,12 +114,14 @@ mt6577_auxadc.ko
 adapter_class.ko
 charger_class.ko
 mtk_charger_algorithm_class.ko
+rt-regmap.ko
 pd_dbg_info.ko
 tcpc_class.ko
 tcpc_rt1711h.ko
 mtk_chg_type_det.ko
 mtk_pd_adapter.ko
 mtk_pep40.ko
+wireless_ta.ko
 mtk_pep20.ko
 mtk_pep.ko
 mtk_pd_charging.ko
@@ -129,7 +130,7 @@ tran_common_class.ko
 prop_ta_class.ko
 pca_rfc_ta.ko
 usb_switch.ko
-sc8548_charger.ko
+hl7138.ko
 mtk_tran_tc30.ko
 mtk_tran_hvdcp20.ko
 mtk_pep50.ko
@@ -139,6 +140,7 @@ mtk_charger_framework.ko
 rt_pd_manager.ko
 mt6358_battery.ko
 tran_otg.ko
+wireless_mt5728.ko
 pwm-mtk-disp.ko
 leds-mtk.ko
 leds-mtk-disp.ko
@@ -181,9 +183,8 @@ sec.ko
 uload_ind.ko
 load_track.ko
 fair.ko
-transsion_touch.ko
+ft3681_common.ko
 aw862xx_haptic.ko
-fs3xxx_haptic.ko
 tkv.ko
 tkv_recovery.ko
 tran_rhi.ko
@@ -194,6 +195,5 @@ tran_perf_util.ko
 tran_expand_key.ko
 lzo.ko
 lzo-rle.ko
-atomic_info.ko
 tnek.ko
 tran_auto_test.ko
